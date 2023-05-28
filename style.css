@@ -1,0 +1,387 @@
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+.thetoppart{
+  width:100%;
+  background-image:url("https://irs.www.warnerbros.com/hero-banner-v2-mobile-png/game/media/browser/lego_star_wars_the_skywalker_saga_4320x1080_v2.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:  10% 0px 0px ;
+  position: relative;
+}
+button {
+  display: inline-block;
+  align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+.download-button {
+  background-color: #4285F4;
+  border: none;
+}
+
+.preorder-button {
+  background-color: #4285F4;
+  border: 2px solid #4285F4;
+}
+body{
+    font-family:montserrat;
+        background-image: url();
+        background-size: cover;
+        background-position: center center;
+      }
+
+nav{
+    background: none;
+    height: 70px;
+    width: 100%;
+
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 50px;
+    font-weight: bold;
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding-right: 4  em;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding-right: 7px 13px;
+    border-radius: 3px; 
+    text-transform: uppercase;
+}
+.active:hover{
+    background: #ed171e;
+    font-weight :bold;
+  
+}
+.checkbtn{ font-size: 30px;
+          color: rgb(208, 86, 86);
+          float: right;
+          line-height: 80px;
+          margin-right: 40px;
+          cursor: pointer;
+   }
+   #check{
+    display: none;
+   }
+   @media (max-width: 952px){
+   label.logo{
+    font-size: 30px ;
+    padding: left 50px;
+   }
+   nav ul li a{
+    font-size: 16px;}
+
+    @media (max-width:858px){
+        .checkbtn{
+            display:block;
+
+        }
+    }
+     ul{
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background: #0b62b9;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition:all .5s;
+     }   
+     nav ul li{
+        display: block;
+        margin: 50px 0;
+        line: height 30px; 
+     }
+     nav ul li a{
+        font-size: 20px;
+     }
+     a:hover,a.active{
+        background: none;
+        color:#1f8feb;
+
+     }
+     #check:checked ~ ul{
+        left: 0;
+     }
+
+    
+   }
+   .nickelodeon{
+    font-size: 25px;
+    background-image: linear-gradient(45deg, #ff00bf, #ffec00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    margin: 10px 0;
+    border: 1px ;
+    padding: 10px;
+      width: 500px;
+      height: 200px;
+      padding: 10px;
+    }
+    .nickelodeonKIDS{
+      font-size: 25px;
+       background-image: linear-gradient(45deg, #ff00bf, #ffec00);
+      -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     display: inline-block;
+     margin: 10px 0;
+     border: 1px solid #000000;
+     padding: 10px;
+     width: 500px;
+     height: 200px;
+    padding: 10px;
+    }
+  
+   
+      .featured-content{height:50vh;
+                        width: 100px;
+    
+        
+     }
+      
+    
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  
+  
+  .movie {
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    border: 1px solid none;
+    padding: 10px;
+  }
+  
+  .movie img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .movie h2 {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .movie p {
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+
+ h1{font-size: 34px;
+  background-image: linear-gradient(45deg, #ff00bf, #ffec00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-content: flex-end;
+ }
+
+ body {
+    background-color: rgb(5, 32, 55);
+    background-position: center center;
+  }
+  .thepart{
+
+    display: inline-block;
+  }
+  .video-container {
+    display: flex;
+    background-color: #000000;
+  }
+  
+  .video-container {
+    position: relative;
+  }
+  
+  .video-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; 
+    z-index: -1;
+  }
+  
+  .text-container {
+    flex: 1;
+  }
+
+  .nickelodeon2foraboutus{ 
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #ff00bf, #ffec00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  }
+
+  .videoaboutus {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio (9 divided by 16 equals 0.5625) */
+  }
+  
+  .videoaboutus iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* Import custom font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+
+/* Apply styles to the welcome text */
+h1.kiddies {
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 48px;
+  color: #FF69B4;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact h3 {
+  font-size: 20px;
+  align: center;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 32px;
+  height: 32px;
+}
+.third-header {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff0080;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: sporadic 2s infinite;
+  background-color: #000000;
+}
+
+@keyframes sporadic {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1) rotate(5deg); }
+  100% { transform: scale(1); }
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+iframe {
+  width: 800px;
+  height: 450px;
+}
+
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .image-container img {
+      display: block;
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .image-container .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .image-container:hover .overlay {
+      opacity: 1;
+    }
+
+    .image-container .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .image-container:hover .overlay-text {
+      opacity: 1;
+    }
